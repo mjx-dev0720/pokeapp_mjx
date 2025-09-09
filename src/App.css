@@ -1,3 +1,43 @@
+@media (max-width: 700px) {
+	.pokemon-app {
+		max-width: 100vw;
+		margin: 0.5rem 0.2rem;
+		border-radius: 0;
+		padding: 1rem 0.2rem 1rem 0.2rem;
+		box-sizing: border-box;
+	}
+	.title {
+		font-size: 1.3rem;
+		margin-bottom: 1rem;
+		margin-left: 0.2rem;
+		margin-right: 0.2rem;
+		word-break: break-word;
+	}
+	.search-bar {
+		flex-direction: column;
+		gap: 0.7rem;
+		width: 100vw;
+		box-sizing: border-box;
+		padding: 0 0.2rem;
+	}
+	.search-bar input {
+		width: 100%;
+		font-size: 1rem;
+		box-sizing: border-box;
+	}
+	.search-bar button {
+		width: 100%;
+		font-size: 1rem;
+	}
+	.pokemon-card {
+		padding: 1rem 0.2rem;
+		margin-top: 0.7rem;
+	}
+	.pokemon-sprite {
+		width: 80px;
+		height: 80px;
+	}
+}
 @media (max-width: 600px) {
 	.pokemon-app {
 		max-width: 100vw;

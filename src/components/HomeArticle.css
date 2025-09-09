@@ -4,6 +4,7 @@
     width: 100vw;
     height: auto;
     padding: 0.5rem 0.1rem 0.5rem 0.1rem;
+    box-sizing: border-box;
   }
   .home-article-banner {
     width: 98vw;
@@ -11,7 +12,31 @@
     margin-bottom: 1rem;
   }
   .home-article-title {
-    font-size: 1.3rem;
+    font-size: 2rem;
+    word-break: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+  }
+  .home-article-lead {
+    font-size: 1.05rem;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  .home-article-container p {
+    font-size: 1rem;
+    word-break: break-word;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  .home-article-inlineimg {
+    width: 90px;
+    height: 90px;
+    margin: 0.7rem 0 0.7rem 0;
+  }
+  .home-article-quote {
+    font-size: 1rem;
+    padding-left: 0.7rem;
+    margin: 1rem 0 1rem 0;
   }
 }
 .home-article-outer {

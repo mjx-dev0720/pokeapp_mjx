@@ -1,3 +1,29 @@
+@media (max-width: 700px) {
+  .about-outer-container {
+    padding: 0.5rem 0.1rem;
+    min-height: 60vh;
+    align-items: flex-start;
+  }
+  .about-container {
+    min-width: 0;
+    max-width: 98vw;
+    width: 98vw;
+    border-radius: 8px;
+    padding: 1.2rem 0.5rem 1rem 0.5rem;
+  }
+  .about-name {
+    font-size: 1.1rem;
+  }
+  .about-links {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-link {
+    padding: 0.5rem 0.7rem;
+    font-size: 0.95rem;
+  }
+}
 
 .about-outer-container {
   min-height: 80vh;

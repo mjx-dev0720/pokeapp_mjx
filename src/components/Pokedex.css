@@ -1,0 +1,98 @@
+.pokedex-outer-container {
+  min-height: 80vh;
+  width: 100vw;
+  background: linear-gradient(120deg, #e5e5e5 0%, #b6d6f6 100%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5vh 0 0 0;
+}
+
+.pokedex-container {
+  background: #f7fafd;
+  border-radius: 14px;
+  box-shadow: 0 8px 32px 0 rgba(60,80,120,0.10), 0 1.5px 6px 0 rgba(60,80,120,0.08);
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  min-width: 900px;
+  max-width: 1200px;
+  width: 80vw;
+  margin-left: 3vw;
+  margin-top: 0;
+}
+
+.pokedex-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.gen-select button {
+  background: #e0e7ef;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.gen-select button.active, .gen-select button:hover {
+  background: linear-gradient(90deg, #b6d6f6 0%, #1e293b 100%);
+  color: #fff;
+}
+
+.pokedex-loading {
+  font-size: 1.2rem;
+  color: #7c3aed;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.pokedex-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1.5rem;
+}
+
+.pokedex-card {
+  background: #f8fafc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(60,60,120,0.08);
+  padding: 1.2rem 0.5rem 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+.pokedex-card:hover {
+  box-shadow: 0 6px 18px rgba(60,60,120,0.13);
+  transform: translateY(-4px) scale(1.04);
+}
+.pokedex-sprite {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 0.5rem;
+  image-rendering: pixelated;
+}
+.pokedex-name {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+.pokedex-types {
+  display: flex;
+  gap: 0.3rem;
+  margin-bottom: 0.2rem;
+  justify-content: center;
+}
+.pokedex-id {
+  font-size: 0.95rem;
+  color: #1e293b;
+  margin-top: 0.2rem;
+}
